@@ -8,7 +8,7 @@ Pull container using:
 sudo docker pull myousefnezhad/crates-io-proxy
 ```
 
-Run server using following command:
+Run the server using the following command:
 ```
 sudo docker run -itd -p 3080:3080 --restart always  -v $/var/cache:/var/cache myousefnezhad/crates-io-proxy:latest
 ```
